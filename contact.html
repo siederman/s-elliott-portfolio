@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div id="container">
+     <p>Leave a Review!</p>
+     <form>
+        <label for="fname">Preferred Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <br><p>Service Needed?</p>
+        <input type="radio" name="gender" value="Man">
+        <label for="Man">Man</label>
+
+        <input type="radio" name="gender" value="Woman">
+        <label for="woman">Woman</label>
+
+        <input type="radio" name="gender" value="Non-Binary">
+        <label for="Non-Binary">Non-Binary</label>
+
+        <input type="radio" name="gender" value="Transgender">
+        <label for="Transgender">Transgender</label>
+
+        <input type="radio" name="gender" value="prefer not to say">
+        <label for="prefer not to say">Prefer Not To Say</label>
+
+        <p>What did you like about the Recipe? Choose 1 or More</p>
+        <input type="checkbox" id="Like1" value="Tasty">
+        <label for="Like1">Taste</label>
+        <input type="checkbox" id="Like2" value="Easy to make">
+        <label for="Like2">Easy to make</label>
+        <input type="checkbox" id="Like3" value="Comforting">
+        <label for="Like3">Comforting</label>
+        <input type="checkbox" id="Like4" value="Budget Friendly">
+        <label for="Like4">Budget Friendly</label>
+        <input type="checkbox" id="Like5" value="Other">
+        <label for="Like5">Other</label>
+        <br><br>
+
+        <label for="Rating">Choose a Recipe Rating</label>
+          <select id="rating" name="rating">
+               <option value="5 Stars">5 Stars</option>
+               <option value="4 Stars">4 Stars</option>
+               <option value="3 Stars">3 Stars</option>
+               <option value="2 Stars">2 Stars</option>
+               <option value="1 Star">1 Star</option>
+          </select><br><br>
+
+         <!--Additional Info-->
+             <label for="info"></label>Anything else to add to your review?</label><br>
+             <textarea id="info" name="info" rows="10" cols="50">
+             </textarea>
+         <br><br>
+
+         <input type="Submit" value="Submit">  
+         </div>
+</body>
+</html>
